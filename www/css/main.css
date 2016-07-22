@@ -1,0 +1,25 @@
+body { margin-top: 100px; }
+
+.nav-margin { margin-top: -7px; }
+
+.bg
+{
+    background-image: url("../images/bg.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100vw;
+
+    position: absolute;
+    z-index: -1;
+    top:-10px;
+}
+
+.h100 { height: 100%; }
+
+.circleBase
+{
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+}
