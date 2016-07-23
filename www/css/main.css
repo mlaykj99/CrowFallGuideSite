@@ -23,3 +23,8 @@ body { margin-top: 100px; }
     border-radius: 50%;
     behavior: url(PIE.htc);
 }
+
+.space
+{
+    margin: 1em;
+}
