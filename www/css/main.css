@@ -1,4 +1,4 @@
-body { margin-top: 100px; }
+body { margin-top: 100px; background-color: #5A6652; }
 
 .nav-margin { margin-top: -7px; }
 
@@ -22,9 +22,31 @@ body { margin-top: 100px; }
 {
     border-radius: 50%;
     behavior: url(PIE.htc);
+
+    max-height: 250px;
+    margin: 2.5em;
 }
 
 .space
 {
     margin: 1em;
+}
+
+.tile
+{
+    height:100px;
+}
+
+.panel-dark
+{
+    background-color: #222;
+    border-color: #101010;
+    color: #fff;
+}
+
+.panel-dark-header
+{
+    background-color: #111 !important;
+    border-color: #101010 !important;
+    color: #fff !important;
 }

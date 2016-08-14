@@ -9,9 +9,10 @@ var app = angular.module('guild', ['ui.router'])
 
         $stateProvider
             .state('no-server', {url: '/no-server', templateUrl: 'fragments/no-server.html'})
-            .state('home',     {url: '/home', templateUrl: 'fragments/home.html', controller: 'homeCtrl'})
-            .state('about',    {url: '/about', templateUrl: 'fragments/about.html', controller: 'aboutCtrl'})
-            .state('contact',  {url: '/contact', templateUrl: 'fragments/contact.html', controller: 'contactCtrl'});
+            .state('home',      {url: '/home', templateUrl: 'fragments/home.html', controller: 'homeCtrl'})
+            .state('about',     {url: '/about', templateUrl: 'fragments/about.html', controller: 'aboutCtrl'})
+            .state('contact',   {url: '/contact', templateUrl: 'fragments/contact.html', controller: 'contactCtrl'})
+            .state('forum',     {url: '/forum', templateUrl: 'fragments/forum.html', controller: 'forumCtrl'});
     })
 
     .controller('appCtrl', function($scope, $http, $state){
